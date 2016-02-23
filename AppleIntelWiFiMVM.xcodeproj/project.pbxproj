@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FCD8E7EF3CB052358B768B /* device-list.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FCDCD7B17CA2C3A0934AC0 /* device-list.h */; };
+		A2FCDBCE14F461ED8FF59D24 /* AppleIntelWiFiMVM.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FCD76F08A35C7958FCB61D /* AppleIntelWiFiMVM.h */; };
+		A2FCDE2FDBE3F06929FF30C4 /* AppleIntelWiFiMVM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2FCD9357022D5758210432C /* AppleIntelWiFiMVM.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2FCD1765A7FFB7A89E78F44 /* AppleIntelWiFiMVM.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIntelWiFiMVM.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FCD76F08A35C7958FCB61D /* AppleIntelWiFiMVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleIntelWiFiMVM.h; sourceTree = "<group>"; };
+		A2FCD9357022D5758210432C /* AppleIntelWiFiMVM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppleIntelWiFiMVM.cpp; sourceTree = "<group>"; };
+		A2FCDAFCBB0DE599AC1B07DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A2FCDCB94D84D48F272CEE1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2FCDCD7B17CA2C3A0934AC0 /* device-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "device-list.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FCD7CCA49D12A262075539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FCD45685A6F1902F550E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCD1765A7FFB7A89E78F44 /* AppleIntelWiFiMVM.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FCDB53559B105EFA4F5F95 /* AppleIntelWiFiMVM */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCDAFCBB0DE599AC1B07DB /* Info.plist */,
+				A2FCD76F08A35C7958FCB61D /* AppleIntelWiFiMVM.h */,
+				A2FCD9357022D5758210432C /* AppleIntelWiFiMVM.cpp */,
+				A2FCDCD7B17CA2C3A0934AC0 /* device-list.h */,
+			);
+			path = AppleIntelWiFiMVM;
+			sourceTree = "<group>";
+		};
+		A2FCDCFA3BA91185569A47B4 = {
+			isa = PBXGroup;
+			children = (
+				A2FCD45685A6F1902F550E87 /* Products */,
+				A2FCDB53559B105EFA4F5F95 /* AppleIntelWiFiMVM */,
+				A2FCDCB94D84D48F272CEE1E /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A2FCD3249D7D5FA097C5DB8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FCDBCE14F461ED8FF59D24 /* AppleIntelWiFiMVM.h in Headers */,
+				A2FCD8E7EF3CB052358B768B /* device-list.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2FCD4DA8FEF90827E4C5666 /* AppleIntelWiFiMVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FCD20FBEE19E5C3F3CC4FC /* Build configuration list for PBXNativeTarget "AppleIntelWiFiMVM" */;
+			buildPhases = (
+				A2FCD1EF9D649435385F7D4E /* Sources */,
+				A2FCD7CCA49D12A262075539 /* Frameworks */,
+				A2FCD3249D7D5FA097C5DB8B /* Headers */,
+				A2FCD0BA633B88520761C9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleIntelWiFiMVM;
+			productName = AppleIntelWiFiMVM;
+			productReference = A2FCD1765A7FFB7A89E78F44 /* AppleIntelWiFiMVM.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FCDD5CC6F0629B4B9C051E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Aaron Mulder";
+			};
+			buildConfigurationList = A2FCDE27889C7BBB95CF3539 /* Build configuration list for PBXProject "AppleIntelWiFiMVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2FCDCFA3BA91185569A47B4;
+			productRefGroup = A2FCD45685A6F1902F550E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FCD4DA8FEF90827E4C5666 /* AppleIntelWiFiMVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FCD0BA633B88520761C9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FCD1EF9D649435385F7D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FCDE2FDBE3F06929FF30C4 /* AppleIntelWiFiMVM.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2FCD01BCEE89A4FAC282646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = AppleIntelWiFiMVM/Info.plist;
+				MODULE_NAME = org.opentools.AppleIntelWiFiMVM;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.opentools.AppleIntelWiFiMVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		A2FCD51F81A032F62788E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2FCD682D16A39E4DE4E8697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2FCD683EB79C04F4D37D397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = AppleIntelWiFiMVM/Info.plist;
+				MODULE_NAME = org.opentools.AppleIntelWiFiMVM;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.opentools.AppleIntelWiFiMVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FCD20FBEE19E5C3F3CC4FC /* Build configuration list for PBXNativeTarget "AppleIntelWiFiMVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FCD01BCEE89A4FAC282646 /* Debug */,
+				A2FCD683EB79C04F4D37D397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2FCDE27889C7BBB95CF3539 /* Build configuration list for PBXProject "AppleIntelWiFiMVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FCD51F81A032F62788E569 /* Debug */,
+				A2FCD682D16A39E4DE4E8697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FCDD5CC6F0629B4B9C051E /* Project object */;
+}
